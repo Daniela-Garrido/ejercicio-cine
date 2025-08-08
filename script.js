@@ -65,7 +65,7 @@ const mensaje = document.getElementById('mensaje');
 
 // Configuración inicial
 cineNombre.textContent = cine.nombre;
-const salaId = 1; // Usamos la sala 1 para este ejemplo
+const salaId = 1; // Sala 1 
 salaActual.textContent = salaId;
 
 // Función para mostrar los asientos

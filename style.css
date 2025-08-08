@@ -4,7 +4,7 @@ body {
     padding: 20px;
     background-image: url(https://ca-times.brightspotcdn.com/dims4/default/d829f96/2147483647/strip/true/crop/3000x2000+0+0/resize/1200x800!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F08%2Fa2%2Fe47e812707a40774a24e6e8f6657%2F95ecd52380214c35b1cca6dbc1d8a643);
     background-position: center;
-    
+
 }
 
 .container {
@@ -23,19 +23,18 @@ h1 {
 }
 
 .cine-info {
-    background-color: #e9f7fe;
+    background-color: white;
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 20px;
-    
+
 }
 
 .controles {
-    background-color: #f9f9f9;
+    background-color: white;
     padding: 15px;
     border-radius: 5px;
     margin-bottom: 20px;
-    
 }
 
 .form-group {
@@ -51,7 +50,7 @@ h1 {
 .form-group input {
     width: 100%;
     padding: 8px;
-    border: 1px solid #ddd;
+    border: 1px solid rgb(117, 117, 117);
     border-radius: 4px;
 }
 
@@ -73,19 +72,18 @@ h1 {
 #btn-reservar {
     background-color: #0aca10;
     color: white;
-    
 }
 
 #btn-cancelar {
     background-color: #c0160a;
     color: white;
-    
+
 }
 
 #btn-disponibles {
     background-color: #0760a8;
     color: white;
-    
+
 }
 
 .resultados {
@@ -97,8 +95,8 @@ h1 {
     flex-wrap: wrap;
     gap: 5px;
     margin-top: 10px;
-    
-    
+
+
 }
 
 .asiento {
@@ -109,16 +107,16 @@ h1 {
     justify-content: center;
     border-radius: 4px;
     font-weight: bold;
-    
+
 }
 
 .disponible {
-    background-color: #dff0d8;
+    background-color: white;
     border: 1px solid #0aca10;
 }
 
 .reservado {
-    background-color: #f2dede;
+    background-color: white;
     border: 1px solid #c0160a;
 }
 
@@ -129,11 +127,11 @@ h1 {
 }
 
 .exito {
-    background-color: #dff0d8;
-    color: #3c763d;
+    background-color: white;
+    color: #0aca10;
 }
 
 .error {
-    background-color: #f2dede;
-    color: #a94442;
+    background-color: white;
+    color: #c0160a;
 }
