@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas en Cine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gestión de Reservas en Cinemark</h1>
+        
+        <div class="cine-info">
+            <h2 id="cine-nombre">Cinemark</h2>
+            <p>Sala: <span id="sala-actual">1</span></p>
+        </div>
+        
+        <div class="controles">
+            <div class="form-group">
+                <label for="asiento-input">Número de asiento:</label>
+                <input type="number" id="asiento-input" min="1" max="50">
+            </div>
+            
+            <div class="botones">
+                <button id="btn-reservar">Reservar Asiento</button>
+                <button id="btn-cancelar">Cancelar Reserva</button>
+                <button id="btn-disponibles">Mostrar Disponibles</button>
+            </div>
+        </div>
+        
+        <div class="resultados">
+            <h3>Estado de la sala:</h3>
+            <div id="asientos-container"></div>
+            <div id="mensaje"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

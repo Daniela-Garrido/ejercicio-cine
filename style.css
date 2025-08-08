@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: url(https://ca-times.brightspotcdn.com/dims4/default/d829f96/2147483647/strip/true/crop/3000x2000+0+0/resize/1200x800!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F08%2Fa2%2Fe47e812707a40774a24e6e8f6657%2F95ecd52380214c35b1cca6dbc1d8a643);
+    background-position: center;
+    
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.877);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+.cine-info {
+    background-color: #e9f7fe;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+}
+
+.controles {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.botones {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    display: inline;
+}
+
+.botones button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#btn-reservar {
+    background-color: #0aca10;
+    color: white;
+    
+}
+
+#btn-cancelar {
+    background-color: #c0160a;
+    color: white;
+    
+}
+
+#btn-disponibles {
+    background-color: #0760a8;
+    color: white;
+    
+}
+
+.resultados {
+    margin-top: 20px;
+}
+
+#asientos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 10px;
+    
+    
+}
+
+.asiento {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-weight: bold;
+    
+}
+
+.disponible {
+    background-color: #dff0d8;
+    border: 1px solid #0aca10;
+}
+
+.reservado {
+    background-color: #f2dede;
+    border: 1px solid #c0160a;
+}
+
+#mensaje {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.exito {
+    background-color: #dff0d8;
+    color: #3c763d;
+}
+
+.error {
+    background-color: #f2dede;
+    color: #a94442;
+}
